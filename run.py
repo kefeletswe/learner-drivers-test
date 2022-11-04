@@ -1,18 +1,7 @@
-import gspread
-from google.oauth2.service_account import Credentials
-SCOPE = [
-    "https://www.googleapis.com/auth/spreadsheets",
-    "https://www.googleapis.com/auth/drive.file",
-    "https://www.googleapis.com/auth/drive"
-    ]
-
-CREDS = Credentials.from_service_account_file("creds.json")
-SCOPED_CREDS = CREDS.with_scopes(SCOPE)
-GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 
 #welcome the user
 print("Welcome to Learners Drivers Test! ")
-username = input("Username?: ")
+username = input("Username:\n")
 print("hey", username,"you need to get all quesntions/Begin Test!")
 
 def new_game():
@@ -93,4 +82,4 @@ new_game()
 while play_again():
     new_game()
 
-print("Byeeeeee!")
+print("See you soon!")
