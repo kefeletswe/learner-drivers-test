@@ -1,5 +1,12 @@
 def new_game():
-    pass
+    guesses = []
+    correct_guesses = 0
+    question_num = 1
+
+
+    for key in questions:
+        print(key)
+
 def check_answer():
     pass
 def display_score():
@@ -17,5 +24,6 @@ options = [["A.  When the driver in front of you is turning right", "B. Elon Mus
           ["A. 1989", "B.  You’re meeting on-coming traffic", "C. 2000", "D. 2016"],
           ["A. Lonely Island", "B. Smosh", "C. A broken yellow line signifies the edge of the roadway", "D. SNL"],
           ["A. A single yellow line signifies parking is prohibited at certain times","B. False", "C. sometimes", "D. What's Earth?"]]
+new_game()
 
 
