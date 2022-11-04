@@ -6,6 +6,8 @@ def new_game():
 
     for key in questions:
         print(key)
+        for i in options[question_num-1]:
+            print(i)
 
 def check_answer():
     pass
