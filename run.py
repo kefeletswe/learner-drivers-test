@@ -15,9 +15,15 @@ def new_game():
             correct_guesses += check_answer(questions.get(key), guess)
             question_num += 1
 
-def check_answer():
-    pass
-def display_score():
+def check_answer(answer, guess):
+     if answer == guess:
+        print("CORRECT!")
+        return 1
+    else:
+        print("WRONG!")
+        return 0
+
+def display_score(correct_guesses, guesses):
     pass
 def try_again():
     pass
