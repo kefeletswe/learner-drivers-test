@@ -24,9 +24,28 @@ def check_answer(answer, guess):
         return 0
 
 def display_score(correct_guesses, guesses):
-    pass
+    print("RESULTS")
+    print("Answers: ", end="")
+    for i in questions:
+        print(questions.get(i), end=" ")
+    print()
+ print("Guesses: ", end="")
+    for i in guesses:
+        print(i, end=" ")
+    print()
+
+    score = int((correct_guesses/len(questions))*100)
+    print("Your score is: "+str(score)+"%")
+      
+
 def try_again():
-    pass
+    response = input("Restart Test? (yes or no): ")
+    response = response.upper()
+
+    if response == "YES":
+        return True
+    else:
+        return False
     
 questions = {
  "When can you overtake on the left?: ": "A",
