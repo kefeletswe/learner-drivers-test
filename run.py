@@ -1,9 +1,9 @@
 # welcome user
 print("Welcome to Learners Drivers Test! ")
-username = input("Enter your name?: ")
-id_number = input("Enter your ID number")
-email = input("Enter your email address")
-print("hey", username, " you need to get all quesntions/Begin Test!")
+firstname = input("Enter your first name?: ")
+lastname = input("Enter your last name?: ")
+email = input("Enter your email address: ")
+print("hey", firstname, " you need to get all questions/Begin Test!")
 
 # guesses
 def new_game():
@@ -66,7 +66,7 @@ def play_again():
 
 
 questions = {
- "What is the lagal age to drive a car?: ": "A",
+ "What is the legal age to drive a car?: ": "A",
  "Are you allowed to overtake?: ": "B",
  "How much is the penalty for overspeeding?: ": "C",
  "How many passengers are allowed in a car?: ": "A"
