@@ -1,9 +1,9 @@
 learners drivers test is a practice test that learners can use to prepare before writng ther official Learners in order to get drivers license. It has possible multiple choice questions, answers and gives user the final mark. The user can also nput ther name and email address.
 
-The user en![Screenshot (36)](https://user-images.githubusercontent.com/109689817/200143682-e5276605-8a8a-410f-8e5a-e4456513aa07.png)
+![Screenshot (36)](https://user-images.githubusercontent.com/109689817/200143682-e5276605-8a8a-410f-8e5a-e4456513aa07.png)
 
 HOW TO USE IT
-ters their fist, last name and email address.
+The user enters their fist, last name and email address.
 The user can know begin the test by choosing the correct answer
 They are only allowed to choose between A,B,C or D. The user can either input upper or lowercase numbers.
 After answering the questions the user will can their final score.
