@@ -1,31 +1,45 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+learners drivers test is a practice test that learners can use to prepare before writng ther official Learners in order to get drivers license. It has possible multiple choice questions, answers and gives user the final mark. The user can also nput ther name and email address.
 
-Welcome kefeletswe,
+The user en![Screenshot (36)](https://user-images.githubusercontent.com/109689817/200143682-e5276605-8a8a-410f-8e5a-e4456513aa07.png)
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+HOW TO USE IT
+ters their fist, last name and email address.
+The user can know begin the test by choosing the correct answer
+They are only allowed to choose between A,B,C or D. The user can either input upper or lowercase numbers.
+After answering the questions the user will can their final score.
+Then they can choose whether to restart the test or not by typing in Yes or No
 
-## Reminders
+FEATURES
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+Existing Features
 
-## Creating the Heroku app
+The user can see one question at a time
+The user gets a notified when their answer is CORRECT OR WRONG 
+![Screenshot (32)](https://user-images.githubusercontent.com/109689817/200143588-f402bfcf-6ad7-4c54-a8f8-07edad30454c.png)
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+The final mark is in Percentages
+The user can choose one out of 4 answers and can only type in letters A,B,C, D Yes or No after they have completed the questions
+They can restart the game whether they have passed or failed
 
-1. `heroku/python`
-2. `heroku/nodejs`
+Future Features ![Screenshot (35)](https://user-images.githubusercontent.com/109689817/200143595-17f6dd04-bc50-41b5-b8a4-273c96999b90.png)
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+The test will have more questions
+The test will have different categories of questions like road only questions, signs, safety in which the user can choose according to their own preferences
+The test will have a voice over or sound feature
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+DATA MODEL
 
-Connect your GitHub repository and deploy as normal.
+I have decided to use functions, variables ,loops and dictionaries for my project
 
-## Constraints
+The dictionary stores the questions and answers for the test.
+the functions divides the test into question, answers, answer checker and scores.
+The loops gives the user feedback or output depending on which answer and options  they picked.
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+TESTING
+I have tested it manually by doing the following:
+Passed the code through PEP8 and the only problems are indetation and recommedation to put whitespaces between the operators
+There are 24 problems on my terminal
 
------
-Happy coding!
+BUGS
+When was running the test i got syntax error results and the app could not load in herosake beacuse i had used the import form love sandwiches and did not put the word from. when i put FROM on the second line the code was good and i decided to removve the whole import
+![Screenshot (30)](https://user-images.githubusercontent.com/109689817/200143460-74f15616-6310-4f33-a4c6-55d6cb3c3435.png)
